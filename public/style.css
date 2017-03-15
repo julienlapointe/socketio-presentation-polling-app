@@ -1,0 +1,118 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+svg
+{
+    height: 900px;
+}
+
+.rd3-barchart-xaxis text{
+    transform: rotate(65deg) translateX(60px);
+    margin-bottom: 500px;
+}
+
+.btn
+{
+    white-space: normal;
+}
+
+.button-spacing
+{
+    padding: 0.25em 0.25em;
+}
+
+.no-padding
+{
+    padding: 0px;
+}
+
+.top-margin
+{
+    margin-top: 35px;
+}
+
+.banner-connected
+{
+    color: #ffffff;
+    background-color: #5CB85C;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.banner-disconnected
+{
+    color: #ffffff;
+    background-color: #D9534F;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#questions
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#questions>div>span {
+    padding: .5em;
+    margin: .5em;
+    display: block;
+    cursor: pointer;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+#questions>div>span:hover {
+    background-color: yellow;
+}
+
+#currentQuestion button {
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+#currentQuestion button:hover {
+    opacity: 0.9;
+}
+
+.green-font
+{
+    color: #5CB85C;
+}
+
+.grey-font
+{
+    color: #bababa;
+    /*color: #DDDDDD;*/
+}
+
+/* MEDIA QUERIES */
+
+/* extra small and small screens */
+@media only screen and (max-width: 768px)
+{
+    form button {
+        margin: 1em 0;
+    }
+}
+
+/* medium and large screens */
+@media only screen and (min-width: 768px)
+{
+    form button {
+        margin-left: 1em;
+    }
+}
